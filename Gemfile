@@ -14,5 +14,8 @@ end
 
 gem 'jquery-rails'
 
+gem 'rmagick'
+gem 'carrierwave'
+
 # Use unicorn as the app server
 gem 'unicorn'
