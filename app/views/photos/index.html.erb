@@ -12,7 +12,13 @@
 <% @photos.each do |photo| %>
   <tr>
     <td><%= photo.name %></td>
-    <td><%= image_tag photo.image_url(:thumb).to_s %></td>
+    <td>
+      <% if photo.image_processing? %>
+        <%= image_tag "spinner_32.gif" %>
+      <% else %>
+        <%= image_tag photo.image_url(:thumb).to_s %>
+      <% end %>
+    </td>
     <td><%= link_to 'Show', photo %></td>
     <td><%= link_to 'Edit', edit_photo_path(photo) %></td>
     <td><%= link_to 'Destroy', photo, method: :delete, data: { confirm: 'Are you sure?' } %></td>
