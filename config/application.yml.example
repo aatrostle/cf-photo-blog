@@ -1,0 +1,9 @@
+PHOTOBLOG_SECRET_TOKEN: 'rails-secret-token'
+
+PHOTOBLOG_DEV_DB: 'database'
+PHOTOBLOG_TEST_DB: 'database'
+PHOTOBLOG_PROD_DB: 'database'
+
+AWS_ACCESS_KEY_ID: 'aws-access-key'
+AWS_SECRET_ACCESS_KEY: 'aws-secret-key'
+AWS_S3_BUCKET: 'aws-s3-bucket'
