@@ -16,6 +16,7 @@ gem 'jquery-rails'
 
 gem 'rmagick'
 gem 'carrierwave'
+gem 'fog'
 
 # Use unicorn as the app server
 gem 'unicorn'
