@@ -1,0 +1,20 @@
+development:
+  adapter: postgresql
+  encoding: unicode
+  database: <%= ENV["PHOTOBLOG_DEV_DB"] %>
+  pool: 5
+  username: <%= ENV["PG_USERNAME"] %>
+
+test:
+  adapter: postgresql
+  encoding: unicode
+  database: <%= ENV["PHOTOBLOG_TEST_DB"] %>
+  pool: 5
+  username: <%= ENV["PG_USERNAME"] %>
+
+production:
+  adapter: postgresql
+  encoding: unicode
+  database: <%= ENV["PHOTOBLOG_PROD_DB"] %>
+  pool: 5
+  username: <%= ENV["PG_USERNAME"] %>
