@@ -14,4 +14,4 @@ A simple photo blog that uses background jobs to process image uploads and store
 
 **that should do it!**
 
-*heroku app link coming soon*
+[View the working app](https://afternoon-basin-8898.herokuapp.com/)
