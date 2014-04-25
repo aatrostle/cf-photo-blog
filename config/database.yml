@@ -1,10 +1,8 @@
 development:
-  adapter: postgresql
-  encoding: unicode
-  database: <%= ENV["PHOTOBLOG_DEV_DB"] %>
+  adapter: sqlite3
+  database: db/development.sqlite3
   pool: 5
-  username: <%= ENV["PG_USERNAME"] %>
-
+  timeout: 5000
 test:
   adapter: postgresql
   encoding: unicode
